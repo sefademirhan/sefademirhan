@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 920" role="img" aria-label="Sıcak ışıklı pencere, iki masa ve bitkilerle huzurlu kafe çizimi">
+<defs>
+ <linearGradient id="bg" x1="0" x2="1" y2="1"><stop stop-color="#e7d2b4"/><stop offset="1" stop-color="#af8062"/></linearGradient>
+ <linearGradient id="w" x1="0" x2="0" y2="1"><stop stop-color="#eab887"/><stop offset="1" stop-color="#fcddb0"/></linearGradient>
+ <linearGradient id="f" x1="0" x2="0" y2="1"><stop stop-color="#7c5a46"/><stop offset="1" stop-color="#49372e"/></linearGradient>
+ <pattern id="wall" width="45" height="45" patternUnits="userSpaceOnUse"><circle cx="4" cy="9" r="1" fill="#fff" opacity=".12"/></pattern>
+</defs>
+<rect width="1100" height="920" fill="url(#bg)"/>
+<rect width="1100" height="920" fill="url(#wall)"/>
+<rect y="655" width="1100" height="265" fill="url(#f)"/>
+<path d="M0 655H1100" stroke="#5b4538" stroke-width="24"/>
+<path d="M170 654V258a265 265 0 01530 0v396Z" fill="#6b5547"/>
+<path d="M198 654V267a237 237 0 01474 0v387Z" fill="url(#w)"/>
+<path d="M198 459q231-60 474-10v205H198Z" fill="#ceb991" opacity=".4"/>
+<path d="M436 46V652M205 352H670" stroke="#765747" stroke-width="18"/>
+<path d="M205 351H670" stroke="#f6dfbe" stroke-opacity=".33" stroke-width="4"/>
+<circle cx="580" cy="171" r="84" fill="#fdf3d7" opacity=".37"/>
+<path d="M0 655L550 820L1100 656M0 820L350 920M1100 820L770 920" stroke="#9b7860" stroke-width="5" opacity=".3"/>
+<g stroke="#523c2d" stroke-width="15" stroke-linecap="round">
+ <path d="M298 609v234M646 576v260"/>
+</g>
+<ellipse cx="298" cy="606" rx="157" ry="35" fill="#3f342d"/>
+<ellipse cx="298" cy="597" rx="157" ry="31" fill="#987155"/>
+<ellipse cx="645" cy="573" rx="166" ry="34" fill="#3f342d"/>
+<ellipse cx="645" cy="564" rx="166" ry="30" fill="#987155"/>
+<g fill="#e8ddd0">
+ <path d="M255 564h54v-44h-54Z"/><ellipse cx="282" cy="520" rx="27" ry="9"/>
+ <path d="M616 539h59v-49h-59Z"/><ellipse cx="645" cy="490" rx="30" ry="9"/>
+</g>
+<path d="M310 524q24-3 15 17q-2 8-18 8" fill="none" stroke="#eee3d5" stroke-width="9"/>
+<path d="M674 494q22 0 16 21q-4 12-15 8" fill="none" stroke="#eee3d5" stroke-width="9"/>
+<g fill="#2b4938">
+ <path d="M930 670Q830 510 866 285Q931 352 931 480Q963 320 1040 278Q1055 390 981 515Q1027 463 1084 467Q1052 595 970 655Z"/>
+ <path d="M970 690Q880 600 818 581Q869 552 932 596Q909 480 892 422Q980 477 988 575Q1032 507 1084 502Q1088 618 1000 697Z" fill="#41684b"/>
+</g>
+<path d="M901 647H1031L1009 842H926Z" fill="#c49a73"/>
+<path d="M891 646H1040" stroke="#a97856" stroke-width="20" stroke-linecap="round"/>
+<path d="M830 0v320" stroke="#49372e" stroke-width="10"/>
+<path d="M757 340Q830 270 903 340L927 400H731Z" fill="#efe1c1"/>
+<ellipse cx="829" cy="401" rx="96" ry="21" fill="#f7ebcc"/>
+<ellipse cx="829" cy="411" rx="97" ry="14" fill="#f2d4a7" opacity=".25"/>
+<text x="68" y="113" font-family="Georgia,serif" font-size="61" fill="#f7e9cd" opacity=".76">slow mornings.</text>
+</svg>
