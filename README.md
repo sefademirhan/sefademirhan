@@ -36,6 +36,13 @@ User registration and login, validated access JWTs, rotating hashed refresh toke
 
 [![API checks](https://github.com/sefademirhan/authentication-api/actions/workflows/dotnet.yml/badge.svg)](https://github.com/sefademirhan/authentication-api/actions/workflows/dotnet.yml)
 
+### ☕ [KÖK Kahve — Responsive Business Website Demo](https://github.com/sefademirhan/sefademirhan/tree/main/docs)
+**HTML · CSS · JavaScript · Responsive Web Design**
+
+A fictional coffee shop's one-page promotional website featuring a responsive layout, menu tabs, mobile navigation, and configurable contact links. The business and its menu are fictional; contact actions remain in demo mode until real business details are provided.
+
+[View website source code](https://github.com/sefademirhan/sefademirhan/tree/main/docs)
+
 ## 🎯 My focus
 
 - Write readable, well-tested code and improve database design
