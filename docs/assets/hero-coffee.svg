@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1060" role="img" aria-label="Seramik fincanda latte, kahve çekirdekleri ve sıcak tonlarda illüstrasyon">
+<defs>
+  <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a85d37"/><stop offset=".42" stop-color="#6a392a"/><stop offset="1" stop-color="#33251f"/></linearGradient>
+  <radialGradient id="light"><stop stop-color="#f8c486" stop-opacity=".55"/><stop offset="1" stop-color="#f8c486" stop-opacity="0"/></radialGradient>
+  <linearGradient id="cup" x1="0" x2="1" y2="1"><stop stop-color="#fff7e8"/><stop offset=".48" stop-color="#e6d0ad"/><stop offset="1" stop-color="#bda182"/></linearGradient>
+  <radialGradient id="coffee" cx=".42" cy=".36" r=".75"><stop stop-color="#c88e56"/><stop offset=".56" stop-color="#8a4b2e"/><stop offset="1" stop-color="#48291f"/></radialGradient>
+  <radialGradient id="saucer"><stop stop-color="#fff8eb"/><stop offset=".78" stop-color="#e7d4b6"/><stop offset="1" stop-color="#aa8d70"/></radialGradient>
+  <filter id="shadow" x="-70%" y="-80%" width="240%" height="270%"><feGaussianBlur stdDeviation="32"/></filter>
+  <pattern id="grain" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="3" cy="5" r=".7" fill="#fff" opacity=".1"/></pattern>
+</defs>
+<rect width="900" height="1060" fill="url(#back)"/>
+<rect width="900" height="1060" fill="url(#grain)"/>
+<circle cx="430" cy="420" r="560" fill="url(#light)"/>
+<path d="M0 745Q290 660 900 830V1060H0Z" fill="#2b2721" opacity=".55"/>
+<path d="M75 0L0 70v170L220 0Z" fill="#e4a166" opacity=".14"/>
+<path d="M780 0L900 120V0Z" fill="#f8d3a4" opacity=".12"/>
+<g opacity=".45" fill="none" stroke="#f6cca4" stroke-width="4" stroke-linecap="round">
+ <path d="M356 284c-60-60 45-93-6-159"/>
+ <path d="M458 260c-50-52 43-85-9-155"/>
+ <path d="M561 288c-60-60 42-85-11-155"/>
+</g>
+<ellipse cx="450" cy="830" rx="318" ry="78" fill="#000" opacity=".36" filter="url(#shadow)"/>
+<ellipse cx="452" cy="782" rx="308" ry="94" fill="url(#saucer)"/>
+<ellipse cx="452" cy="781" rx="249" ry="59" fill="#bd9b79" opacity=".43"/>
+<path d="M235 443 Q206 735 343 781 Q447 815 559 779 Q686 719 662 443Z" fill="url(#cup)" stroke="#ffedcc" stroke-width="8"/>
+<path d="M642 491 Q806 433 793 579 Q779 706 656 670" fill="none" stroke="#d9bea0" stroke-width="50" stroke-linecap="round"/>
+<path d="M646 500 Q784 455 761 573 Q752 648 671 639" fill="none" stroke="#614637" stroke-width="24" stroke-linecap="round"/>
+<ellipse cx="450" cy="440" rx="217" ry="95" fill="#fff5df" stroke="#d7bfa0" stroke-width="9"/>
+<ellipse cx="450" cy="442" rx="199" ry="76" fill="url(#coffee)"/>
+<ellipse cx="450" cy="443" rx="169" ry="58" fill="#c5915c" opacity=".65"/>
+<g fill="#ffeed2" opacity=".98">
+ <path d="M450 491C404 457 346 442 353 422C359 402 386 403 408 419C403 397 420 387 439 403L450 416 462 404C482 386 500 398 494 420C516 405 544 406 547 424C553 448 490 468 450 491Z"/>
+ <path d="M450 483C430 460 408 447 412 427C416 410 436 414 451 434C464 413 486 412 490 429C491 446 471 468 450 483Z" fill="#b16b3d"/>
+ <path d="M451 475C440 462 434 448 438 441C441 436 446 440 451 447C458 435 463 435 467 440C471 451 458 465 451 475Z"/>
+</g>
+<path d="M452 460C452 514 450 533 434 558" fill="none" stroke="#f5e4c5" stroke-width="7" stroke-linecap="round" opacity=".8"/>
+<path d="M293 583Q320 726 378 753" stroke="#fff" stroke-width="20" stroke-linecap="round" fill="none" opacity=".32"/>
+<g transform="translate(160 900) rotate(-21)"><ellipse rx="49" ry="31" fill="#5e3325" stroke="#ab7850" stroke-width="5"/><path d="M-25 17Q-3 1 0-22Q7 1 25 14" stroke="#bd8a61" fill="none" stroke-width="5"/></g>
+<g transform="translate(248 938) rotate(36)"><ellipse rx="33" ry="22" fill="#75412c" stroke="#b28155" stroke-width="4"/><path d="M-17 11Q0 0 0-14Q4 0 16 11" stroke="#b8875a" fill="none" stroke-width="3"/></g>
+<g transform="translate(734 854) rotate(32)"><ellipse rx="39" ry="25" fill="#402a22" stroke="#956241" stroke-width="4"/><path d="M-18 14Q0 0 0-18Q8 4 21 12" stroke="#af7a4f" fill="none" stroke-width="4"/></g>
+<g transform="translate(786 905) rotate(-24)"><ellipse rx="24" ry="17" fill="#633927" stroke="#a8734e" stroke-width="3"/><path d="M-11 11Q0 0 0-12Q7 2 11 8" stroke="#ba8865" fill="none" stroke-width="3"/></g>
+<circle cx="728" cy="218" r="90" stroke="#f6d5aa" stroke-opacity=".26" stroke-width="1.5" fill="none"/>
+<circle cx="728" cy="218" r="75" stroke="#f6d5aa" stroke-opacity=".26" stroke-width="1.5" fill="none"/>
+<text x="728" y="206" font-family="Georgia,serif" font-size="24" text-anchor="middle" fill="#ffe1b9" letter-spacing="4">KÖK</text>
+<text x="728" y="239" font-family="Arial,sans-serif" font-size="10" text-anchor="middle" fill="#ffe1b9" letter-spacing="5">COFFEE</text>
+</svg>
