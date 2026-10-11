@@ -1,45 +1,40 @@
-# KÖK Kahve — İşletme Tanıtım Sitesi (Demo)
+# KÖK Kahve — Responsive Business Website Demo
 
-Bu çalışma, Sefa Demirhan tarafından müşteri portföyü için hazırlanmış, **hayalî bir kahve dükkânını** tanıtan, mobil uyumlu tek sayfalık statik web sitesidir. Gerçek bir işletmeyi temsil etmez.
+Bu proje, hayalî bir kahve dükkânı için hazırlanmış, mobil uyumlu **tek sayfalık tanıtım sitesi demosudur**. Gerçek bir işletmeyi temsil etmez. Sefa Demirhan'ın web tasarım portföyü için hazırlanmıştır.
 
-## Nasıl açılır?
+## GitHub Pages ile yayınlama
 
-1. `kok-kahve-demo.zip` arşivini aç.
-2. `kok-kahve-demo` klasörünün içinde `index.html` dosyasına çift tıkla.
-3. Tarayıcıda çalışır; .NET, SQL veya kurulum gerekmez.
+Bu demo, [profil reposunun `docs` klasöründe](https://github.com/sefademirhan/sefademirhan/tree/main/docs) yer almaktadır.
 
-Alternatif olarak klasörde PowerShell açıp `python -m http.server 8000` yazabilir, sonra `http://localhost:8000` adresine girebilirsin (Python kuruluysa).
+Repo yöneticisinin yalnızca bir kez şu ayarı yapması gerekir:
 
-## Neler var?
+1. [GitHub Pages ayarlarını aç](https://github.com/sefademirhan/sefademirhan/settings/pages).
+2. **Build and deployment → Source** bölümünde **Deploy from a branch** seç.
+3. **Branch** olarak `main`, **Folder** olarak `/docs` seçip **Save** butonuna bas.
+4. GitHub Pages yayımlama işlemi başarıyla bittiğinde ayar sayfasında verilen **Visit site** bağlantısını aç.
 
-- Masaüstü / tablet / telefon uyumlu özgün tasarım
-- Mobil açılır menü ve sayfa içi navigasyon
-- Üç farklı menü kategorisi (Kahveler / Fırından / Soğuklar)
-- Etkileşimli sık sorulan sorular bölümü
-- İşletme hikâyesi, hizmet avantajları ve mekân bölümü
-- İletişim formu alan kontrolü (e-posta uygulamasıyla gönderim)
-- Numara tanımlanınca çalışan WhatsApp bağlantısı
-- SEO başlığı, açıklaması, favicon, erişilebilir temel HTML
-- İki adet projeye özel, bağımsız SVG illüstrasyonu
+> Yayın adresi ancak Pages işlemi başarılı olduktan sonra kullanılmalıdır. GitHub deposundaki dosyaların bulunması, sitenin otomatik olarak internete açıldığı anlamına gelmez.
 
-## İşletmeye uyarlama
+## Demo özellikleri
 
-**Hızlı iletişim ayarları:** `config.js` dosyasını Not Defteri veya VS Code ile açıp `address`, `email`, `whatsappNumber` alanlarını değiştir. WhatsApp numarasını ülke koduyla, `+` işareti olmadan yaz (örnek `905551112233`). **Gerçek numara girilmeden demo sayfası kimseye mesaj göndermez.** Form, tanımlanan e-posta adresine bilgisayardaki e-posta uygulaması üzerinden mesaj hazırlayacaktır. Bir sunucuya veri kaydetmez.
+- Telefon, tablet ve bilgisayara uyumlu tasarım
+- Menü sekmeleri (kahveler, fırından, soğuk içecekler)
+- Mobil menü ve sayfa içi navigasyon
+- Sık sorulan sorular, işletme hikâyesi ve iletişim alanları
+- `config.js` ile değiştirilebilir işletme bilgileri
+- Telif hakları açısından dış görsel gerektirmeyen özel SVG illüstrasyonlar
+- HTML, CSS ve JavaScript ile çalışır; sunucu veya veritabanı gerektirmez
 
-**İşletme adı, menü ve renkler:** `index.html` içindeki KÖK Kahve metinlerini, `app.js` içindeki `menu` listesini ve `styles.css` içindeki `:root` renklerini düzenle. Favicon `assets/favicon.svg` dosyasında.
+## Başka işletmeye uyarlama
 
-**Resimler:** `assets/hero-coffee.svg` ve `assets/space.svg`, telif hakkı açısından üçüncü taraf fotoğraf gerektirmeyen, bu demo için hazırlanan vektör illüstrasyonlardır. Gerçek müşteriye teslim ederken kendi fotoğraflarıyla değiştirilebilir.
+- `index.html`: İşletme adı, açıklamalar ve sayfa içeriği.
+- `styles.css`: Renkler, tipografi ve sayfa düzeni.
+- `app.js`: Menüdeki ürünler, açıklamalar ve örnek fiyatlar.
+- `config.js`: Adres, e-posta ve WhatsApp numarası.
+- `assets/`: Logo/favikon ve illüstrasyonlar.
 
-## Gerçek müşteri projesinde önerilenler
+Telefon ve e-posta alanları boş olduğu sürece iletişim butonları örnek modda çalışır; ziyaretçiye yanlışlıkla gerçek iletişim hizmeti sunulmaz. Mevcut form `mailto:` yöntemiyle e-posta uygulamasını açar, otomatik teslim veya sunucuda kayıt **sağlamaz**.
 
-- Alan adı ve güvenilir HTTPS hosting
-- İşletmenin gerçek metinleri, fiyatları, logosu ve fotoğrafları
-- KVKK uyumlu gizlilik/metinler ve eğer veri toplanacaksa gerekli izinler
-- Gerçek form teslimatı için güvenli sunucu veya onaylı form servisi, spam koruması
-- Canlıya almadan önce tarayıcı, telefon ve kullanılabilirlik testleri
+Bu çalışma bir **portföy örneğidir**. Fiyatlar, çalışma saatleri ve işletme bilgileri kurgusaldır. Ticari kullanımdan önce metinler, görseller, telif izinleri, iletişim bağlantıları, barındırma, KVKK ve gerekli yasal bilgilendirmeler gerçek işletme için düzenlenmelidir.
 
-## Sınırlamalar
-
-Bu **satışta kullanılabilecek tasarım örneği**, henüz bir müşteri yayını değildir. Sahte yorumlar, rezervasyon işlemi ve ödeme sistemi yoktur. İletişim adresleri boşsa gönderim yapılmaz. Menü fiyatları ve işletme bilgileri kurgusaldır. İletişim formu `mailto:` yöntemiyle çalışır; e-posta istemcisi kurulu değilse otomatik gönderim yapmaz.
-
-Geliştiren: [Sefa Demirhan](https://github.com/sefademirhan).
+**Hazırlayan:** [Sefa Demirhan](https://github.com/sefademirhan).
