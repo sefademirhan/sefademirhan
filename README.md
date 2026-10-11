@@ -13,6 +13,14 @@ Merhaba! C# ve .NET teknolojileriyle projeler geliştirerek kendimi ilerletiyoru
 **Backend:** REST APIs · JWT authentication · BCrypt password hashing  
 **Tools:** Git · GitHub Actions · Swagger/OpenAPI · xUnit
 
+## 🌐 Web design services
+
+I also create responsive **one-page websites** for cafés, salons and small businesses.
+
+**[View my web design services, demo and starter packages →](https://sefademirhan.github.io/hizmetler/)**
+
+*Demo portfolio and starting-price examples; not an online payment store.*
+
 ## 📌 Featured projects
 
 ### 📦 [Stock Management System](https://github.com/sefademirhan/stock-management-system)
