@@ -1,40 +1,47 @@
 # Hi, I'm Sefa Demirhan 👋
 
-**Aspiring C# / .NET Developer** | Backend Development | Learning by Building
+**C# / .NET Developer in Training** · Backend APIs · Windows Desktop Applications
 
-I'm building my software development skills through practical projects with **C#, .NET, ASP.NET Core, REST APIs, Entity Framework Core, and SQL Server**. My goal is to write clear, maintainable code and improve through hands-on practice.
+I build practical projects to develop my C#, ASP.NET Core, Entity Framework Core, and SQL Server skills. My repositories include runnable examples, database migrations, setup instructions, and automated checks.
 
-Merhaba! C# ve .NET ekosisteminde kendimi geliştiren bir yazılım geliştirici adayıyım. Öğrenirken gerçek projeler oluşturuyor, kodlarımı ve ilerlememi GitHub'da paylaşıyorum.
+Merhaba! C# ve .NET teknolojileriyle projeler geliştirerek kendimi ilerletiyorum. GitHub'da hem masaüstü hem de API çalışmalarımı ve öğrenme sürecimi paylaşıyorum.
 
-### 🛠️ Technologies I'm working with
+## 🧰 Technologies
 
-- **Language:** C#
-- **Frameworks:** .NET 8, ASP.NET Core
-- **Backend:** REST APIs, Entity Framework Core
-- **Database:** SQL Server
-- **Authentication:** JWT, password hashing
-- **Tools:** Git, GitHub, GitHub Actions
+**Languages:** C# · SQL  
+**Frameworks:** .NET 8 · ASP.NET Core · Windows Forms · Entity Framework Core  
+**Backend:** REST APIs · JWT authentication · BCrypt password hashing  
+**Tools:** Git · GitHub Actions · Swagger/OpenAPI · xUnit
 
-### 📌 Featured projects
+## 📌 Featured projects
 
-| Project | Description | Status |
-| --- | --- | --- |
-| 📦 [Stock Management System](https://github.com/sefademirhan/stock-management-system) | C# console app with product management, stock movements, low-stock alerts and unit tests | Core version completed; database planned |
-| 🛒 [E-Commerce API](https://github.com/sefademirhan/e-commerce-api) | ASP.NET Core API for product and category management, using EF Core and SQL Server | In development |
-| 🔐 [Authentication API](https://github.com/sefademirhan/authentication-api) | User registration, login and JWT-based authentication with BCrypt password hashes | Learning project; not production-ready |
+### 📦 [Stock Management System](https://github.com/sefademirhan/stock-management-system)
+**Windows Forms + C# + SQL Server LocalDB**
 
-### 🌱 What I'm learning next
+Desktop inventory dashboard and console application with product management, critical-stock alerts, stock movement history, CSV export, and persistent SQL storage.
 
-- Connecting applications to databases and writing EF Core migrations
-- Testing REST APIs and improving input validation
-- Writing automated tests and reviewing GitHub Actions results
-- Building more complete backend applications
+[![Windows desktop build](https://github.com/sefademirhan/stock-management-system/actions/workflows/windows-desktop.yml/badge.svg)](https://github.com/sefademirhan/stock-management-system/actions/workflows/windows-desktop.yml)
 
-### 📫 Connect
+### 🛒 [E-Commerce API](https://github.com/sefademirhan/e-commerce-api)
+**ASP.NET Core + EF Core + SQL Server**
 
-- **GitHub:** [@sefademirhan](https://github.com/sefademirhan)
-- **Projects:** Explore my public repositories below
+REST API with product/category CRUD, guest shopping carts, stock-aware checkout, order snapshots, versioned EF Core migrations, and automated tests.
 
----
+[![API checks](https://github.com/sefademirhan/e-commerce-api/actions/workflows/dotnet.yml/badge.svg)](https://github.com/sefademirhan/e-commerce-api/actions/workflows/dotnet.yml)
 
-*Every project is a step forward. I update these repositories as I learn and improve.*
+### 🔐 [Authentication API](https://github.com/sefademirhan/authentication-api)
+**ASP.NET Core + JWT + BCrypt + SQL Server**
+
+User registration and login, validated access JWTs, rotating hashed refresh tokens, logout, basic rate limiting, and API integration tests.
+
+[![API checks](https://github.com/sefademirhan/authentication-api/actions/workflows/dotnet.yml/badge.svg)](https://github.com/sefademirhan/authentication-api/actions/workflows/dotnet.yml)
+
+## 🎯 My focus
+
+- Write readable, well-tested code and improve database design
+- Learn authentication, authorization, API validation, and secure defaults
+- Grow from working demos toward maintainable real-world applications
+
+> These are learning and portfolio projects, not production-hosted services. Each README explains its setup steps and limitations.
+
+📫 **GitHub:** [@sefademirhan](https://github.com/sefademirhan)
