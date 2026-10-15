@@ -17,10 +17,10 @@ Merhaba! C# ve .NET teknolojileriyle projeler geliştirerek kendimi ilerletiyoru
 
 I also create responsive **one-page websites** for cafés, salons and small businesses.
 
-**[View my web design services, demo and starter packages →](https://sefademirhan.github.io/hizmetler/)**
+**[View my web design services, demo and starter packages →](https://sefademirhan.github.io/sefademirhan/hizmetler/)**
 
 *Demo portfolio and starting-price examples; not an online payment store.*
-**[Emlak sitesi canlı demo — Cihangir Boss Emlak (bağımsız, onaysız tasarım prototipi)](https://sefademirhan.github.io/emlak-demo/)**
+**[Emlak sitesi canlı demo — Cihangir Boss Emlak (bağımsız, onaysız tasarım prototipi)](https://sefademirhan.github.io/sefademirhan/emlak-demo/)**
 
 *Emlak sayfasındaki 12 ilan, fiyat ve görseller yalnızca tasarım örneğidir; bu çalışma işletmenin resmî web sitesi değildir.*
 
