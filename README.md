@@ -13,6 +13,12 @@ Merhaba! C# ve .NET teknolojileriyle projeler geliştirerek kendimi ilerletiyoru
 **Backend:** REST APIs · JWT authentication · BCrypt password hashing  
 **Tools:** Git · GitHub Actions · Swagger/OpenAPI · xUnit
 
+## 🌐 Personal portfolio
+
+**[Visit my personal portfolio website →](https://sefademirhan.github.io/sefademirhan/portfoy/)**
+
+Web design services, public GitHub projects, and a contact form that opens an email draft. Portfolio demos are labeled as demos, not client references.
+
 ## 🌐 Web design services
 
 I also create responsive **one-page websites** for cafés, salons and small businesses.
